@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeowMagic</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+            background-color: #5A5A3A;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #5A5A3A;
+            padding: 15px 20px;
+        }
+        .logo {
+            font-size: 22px;
+            font-family: cursive;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        .icons {
+            display: flex;
+            gap: 15px;
+        }
+        .icons img {
+            width: 24px;
+            height: 24px;
+        }
+        .hero {
+            background-color: #EAD8B2;
+            padding: 40px;
+            text-align: center;
+        }
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background-color: #EAD8B2;
+        }
+        .card {
+            background-color: #C4B08F;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .card img {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .button {
+            background-color: #5A5A3A;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">MeowMagic</a>
+        <div class="menu">
+            <a href="#">Contact</a>
+            <a href="#">Community</a>
+            <a href="#">More info</a>
+            <a href="#">Language</a>
+        </div>
+        <div class="icons">
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="telegram-icon.png" alt="Telegram"></a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h2>🐾 What is MeowMagic?</h2>
+        <p>Cats are one of the most mysterious and favorite creatures in the world. The stench has accompanied people for thousands of years, standing as symbols of independence, grace and mystery.</p>
+        <img src="cats-illustration.png" alt="Cute cats illustration">
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <img src="ginger-cat.png" alt="Ginger Cat">
+            <h3>Ginger cat</h3>
+            <button class="button">More about this cat</button>
+        </div>
+        <div class="card">
+            <img src="maine-coon.png" alt="Maine Coon">
+            <h3>Maine Coon</h3>
+            <button class="button">More about this cat</button>
+        </div>
+        <div class="card">
+            <img src="sphynx.png" alt="Sphynx">
+            <h3>Sphynx</h3>
+            <button class="button">More about this cat</button>
+        </div>
+        <div class="card">
+            <img src="british-cat.png" alt="British Cat">
+            <h3>British Cat</h3>
+            <button class="button">More about this cat</button>
+        </div>
+        <div class="card">
+            <img src="siamese-cat.png" alt="Siamese Cat">
+            <h3>Siamese Cat</h3>
+            <button class="button">More about this cat</button>
+        </div>
+        <div class="card">
+            <img src="bengal-cat.png" alt="Bengal Cat">
+            <h3>Bengal Cat</h3>
+            <button class="button">More about this cat</button>
+        </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div>
+          <a href="https://instagram.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40" hspace="10">
+        </a>
+        <a href="https://youtube.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" width="40" hspace="10">
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="40" hspace="10">
+        </a>
+        
+      </div>
+                <div class="TextLinkList1">
+                    <div class="title1"><div class="title11"><div class="title12">Use cases</div></div></div>
+                    <div class="TextListItem1"><div class="Item1">Diagramming</div></div>
+                    <div class="TextListItem11"><div class="Item2">Online whitheboard</div></div>
+                    <div class="TextListItem12"><div class="Item3">Team colloboration</div></div>
+                </div>
+                <div class="TextLinkList2">
+                    <div class="title2"><div class="title21"><div class="title22">Explore</div></div></div>
+                    <div class="TextListItem2"><div class="Item4">Development features</div></div>
+                    <div class="TextListItem21"><div class="Item5">Colloboration features</div></div>
+                </div>
+                <div class="TextLinkList3">
+                    <div class="title3"><div class="title31"><div class="title32">Resources</div></div></div>
+                    <div class="TextListItem3"><div class="Item6">Blog</div></div>
+                    <div class="TextListItem31"><div class="Item7">Support</div></div>
+                    <div class="TextListItem32"><div class="Item8">Developers</div></div>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>
