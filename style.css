@@ -1,3 +1,76 @@
+        
+        body {
+            background-color: #5A5A3A;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #5A5A3A;
+            padding: 15px 20px;
+        }
+        .logo {
+            font-size: 22px;
+            font-family: cursive;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        .icons {
+            display: flex;
+            gap: 15px;
+        }
+        .icons img {
+            width: 24px;
+            height: 24px;
+        }
+        .hero {
+            background-color: #EAD8B2;
+            padding: 40px;
+            text-align: center;
+        }
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background-color: #EAD8B2;
+        }
+        .card {
+            background-color: #C4B08F;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .card img {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .button {
+            background-color: #5A5A3A;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 .footer {
     box-sizing: border-box;
     display: flex;
@@ -5,7 +78,7 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 32px 32px 160px;
+    padding: 32px 32px 100px;
     gap: 16px;
 
     position: relative;
